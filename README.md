@@ -168,7 +168,7 @@ pytest
 
 ## Assignment Notes
 
-- The recommendation engine is rule-based and ML-ready. See `docs/ASSIGNMENT_EXPLANATION.md` for details on the model approach, system architecture, logging, and how an ML ranker can be integrated without changing the API.
+- The recommendation engine is rule-based and ML-ready. See `assignment explaination` for details on the model approach, system architecture, logging, and how an ML ranker can be integrated without changing the API.
 
 
 ## Contributing
