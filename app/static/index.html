@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Outfit Curation Engine</title>
+  <link rel="stylesheet" href="/ui/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Outfit Curation Engine</h1>
+    <p>Generate outfit recommendations based on your info, occasion, and inventory.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Request Parameters</h2>
+      <form id="request-form">
+        <div class="grid">
+          <div class="field">
+            <label for="occasion_type">Occasion Type</label>
+            <select id="occasion_type" required>
+              <option value="business_casual" selected>Business Casual</option>
+              <option value="casual">Casual</option>
+              <option value="formal">Formal</option>
+              <option value="party">Party</option>
+              <option value="sporty">Sport</option>
+              <option value="evening">Evening</option>
+              <option value="beach">Beach</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="weather">Weather</label>
+            <select id="weather" required>
+              <option value="mild" selected>Mild</option>
+              <option value="cool">Cool</option>
+              <option value="warm">Warm</option>
+              <option value="hot">Hot</option>
+              <option value="cold">Cold</option>
+              <option value="rainy">Rainy</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="max_outfits">Max Outfits</label>
+            <input id="max_outfits" type="number" min="1" max="10" value="2" />
+          </div>
+          <div class="field checkbox">
+            <label>
+              <input id="consider_previous" type="checkbox" checked />
+              Consider previous outfits
+            </label>
+          </div>
+        </div>
+
+        <details class="inventory-details" open>
+          <summary>Inventory JSON (edit as needed)</summary>
+          <textarea id="inventory" rows="12"></textarea>
+        </details>
+
+        <button type="submit" class="primary">Recommend Outfits</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Results</h2>
+      <div id="results" class="results"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      API Docs: <a href="/docs" target="_blank">/docs</a>
+    </p>
+  </footer>
+
+  <script src="/ui/app.js"></script>
+</body>
+</html>

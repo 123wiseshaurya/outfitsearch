@@ -1,0 +1,188 @@
+[
+  {
+    "outfit_id": "outfit_1",
+    "items": [
+      {
+        "item_id": "top3",
+        "item_type": "top",
+        "name": "Striped Button-Down",
+        "brand": null,
+        "color": "blue",
+        "pattern": null,
+        "material": "cotton",
+        "size": "M",
+        "style": [
+          "casual",
+          "business"
+        ],
+        "weather_suitability": [
+          "mild",
+          "warm"
+        ],
+        "occasion_suitability": [
+          "casual",
+          "business_casual"
+        ],
+        "image_url": null,
+        "last_worn": null,
+        "is_clean": true,
+        "metadata": {}
+      },
+      {
+        "item_id": "bottom2",
+        "item_type": "bottom",
+        "name": "Khaki Chinos",
+        "brand": null,
+        "color": "khaki",
+        "pattern": null,
+        "material": "cotton",
+        "size": "32",
+        "style": [
+          "casual",
+          "business"
+        ],
+        "weather_suitability": [
+          "mild",
+          "warm"
+        ],
+        "occasion_suitability": [
+          "casual",
+          "business_casual"
+        ],
+        "image_url": null,
+        "last_worn": null,
+        "is_clean": true,
+        "metadata": {}
+      }
+    ],
+    "occasion": "business_casual",
+    "confidence_score": 0.75,
+    "style_notes": null,
+    "created_at": "2025-09-15 10:41:55.833113",
+    "last_worn": null
+  },
+  {
+    "outfit_id": "outfit_2",
+    "items": [
+      {
+        "item_id": "top3",
+        "item_type": "top",
+        "name": "Striped Button-Down",
+        "brand": null,
+        "color": "blue",
+        "pattern": null,
+        "material": "cotton",
+        "size": "M",
+        "style": [
+          "casual",
+          "business"
+        ],
+        "weather_suitability": [
+          "mild",
+          "warm"
+        ],
+        "occasion_suitability": [
+          "casual",
+          "business_casual"
+        ],
+        "image_url": null,
+        "last_worn": null,
+        "is_clean": true,
+        "metadata": {}
+      },
+      {
+        "item_id": "bottom2",
+        "item_type": "bottom",
+        "name": "Khaki Chinos",
+        "brand": null,
+        "color": "khaki",
+        "pattern": null,
+        "material": "cotton",
+        "size": "32",
+        "style": [
+          "casual",
+          "business"
+        ],
+        "weather_suitability": [
+          "mild",
+          "warm"
+        ],
+        "occasion_suitability": [
+          "casual",
+          "business_casual"
+        ],
+        "image_url": null,
+        "last_worn": null,
+        "is_clean": true,
+        "metadata": {}
+      }
+    ],
+    "occasion": "business_casual",
+    "confidence_score": 0.75,
+    "style_notes": null,
+    "created_at": "2025-09-15 10:41:55.833458",
+    "last_worn": null
+  },
+  {
+    "outfit_id": "outfit_3",
+    "items": [
+      {
+        "item_id": "top3",
+        "item_type": "top",
+        "name": "Striped Button-Down",
+        "brand": null,
+        "color": "blue",
+        "pattern": null,
+        "material": "cotton",
+        "size": "M",
+        "style": [
+          "casual",
+          "business"
+        ],
+        "weather_suitability": [
+          "mild",
+          "warm"
+        ],
+        "occasion_suitability": [
+          "casual",
+          "business_casual"
+        ],
+        "image_url": null,
+        "last_worn": null,
+        "is_clean": true,
+        "metadata": {}
+      },
+      {
+        "item_id": "bottom2",
+        "item_type": "bottom",
+        "name": "Khaki Chinos",
+        "brand": null,
+        "color": "khaki",
+        "pattern": null,
+        "material": "cotton",
+        "size": "32",
+        "style": [
+          "casual",
+          "business"
+        ],
+        "weather_suitability": [
+          "mild",
+          "warm"
+        ],
+        "occasion_suitability": [
+          "casual",
+          "business_casual"
+        ],
+        "image_url": null,
+        "last_worn": null,
+        "is_clean": true,
+        "metadata": {}
+      }
+    ],
+    "occasion": "business_casual",
+    "confidence_score": 0.75,
+    "style_notes": null,
+    "created_at": "2025-09-15 10:41:55.833476",
+    "last_worn": null
+  }
+]

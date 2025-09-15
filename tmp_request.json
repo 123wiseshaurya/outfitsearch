@@ -1,0 +1,62 @@
+{
+  "user_info": {
+    "user_id": "demo-user",
+    "body_type": "rectangle",
+    "skin_tone": "medium",
+    "height_cm": 170,
+    "style_preferences": ["casual", "minimalist"],
+    "color_preferences": ["blue", "white", "black"],
+    "fit_preferences": {}
+  },
+  "occasion": {
+    "occasion_type": "business_casual",
+    "weather": "mild",
+    "time_of_day": "afternoon",
+    "location": "office",
+    "dress_code": "business_casual",
+    "additional_notes": null
+  },
+  "inventory": [
+    {
+      "item_id": "top1",
+      "item_type": "top",
+      "name": "Blue Dress Shirt",
+      "color": "blue",
+      "material": "cotton",
+      "size": "M",
+      "style": ["formal", "business"],
+      "weather_suitability": ["cool", "mild", "warm"],
+      "occasion_suitability": ["business_casual", "casual"],
+      "is_clean": true,
+      "metadata": {}
+    },
+    {
+      "item_id": "bottom1",
+      "item_type": "bottom",
+      "name": "Black Dress Pants",
+      "color": "black",
+      "material": "wool",
+      "size": "32",
+      "style": ["formal", "business"],
+      "weather_suitability": ["cool", "mild"],
+      "occasion_suitability": ["business_casual", "casual"],
+      "is_clean": true,
+      "metadata": {}
+    },
+    {
+      "item_id": "shoes1",
+      "item_type": "shoes",
+      "name": "Black Leather Shoes",
+      "color": "black",
+      "material": "leather",
+      "size": "42",
+      "style": ["formal", "classic"],
+      "weather_suitability": ["cool", "mild"],
+      "occasion_suitability": ["business_casual", "casual"],
+      "is_clean": true,
+      "metadata": {}
+    }
+  ],
+  "max_outfits": 2,
+  "consider_previous_outfits": true
+}
