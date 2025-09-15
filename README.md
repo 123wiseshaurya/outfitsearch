@@ -1,5 +1,5 @@
 # Outfit Curation Engine
-
+<img src="docs/images/ui_preview.png" alt="Outfit Curation Engine UI" width="900" />
 An intelligent outfit recommendation system that curates outfits based on user preferences, inventory, and occasion.
 
 ## Features
